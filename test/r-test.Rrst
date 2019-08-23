@@ -1,0 +1,50 @@
+R test
+======
+Testovací dokument / pískoviště
+
+.. {r example_code}
+
+library(reticulate)
+x = 42
+print(x)
+
+.. ..
+
+
+Tady bude nějaký r skript
+
+.. {r rst-example}
+1+1
+set.seed(123); rnorm(10)
+
+x <- 44
+y <- 55
+x + y
+.. ..
+
+data na graf:
+
+.. {r rst-data-plot, message=FALSE}
+xy <- rnorm(100)
+xy
+.. ..
+
+graf:
+
+.. {r rst-plot, out.width='360px', fig.cap= "Graf 1"}
+hist(xy)
+.. ..
+
+
+
+Test python skriptu
+
+.. {python}
+
+x = 4
+foobar = "foo"+"bar"
+x*foobar
+
+.. ..
+
+
