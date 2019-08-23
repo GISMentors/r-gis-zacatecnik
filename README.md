@@ -1,5 +1,5 @@
-Školení GIS v R pro začínající uživatele
-========================================
+Školení GIS v R pro začátečníky
+===============================
 
 Kapitoly s R kódem, který ve výsledném textu chceme mít vyhodnocený (
 výsledek, graf), je třeba napsat ve formátu `.Rrst` a pomocí R funkce
@@ -13,7 +13,7 @@ nebo přímo z terminálu
 
     Rscript -e 'knitr::knit("foobar.Rrst")'
 
-Funkce vytvoří `.rst` se názvem zdrojového dokumentu.
+Funkce vytvoří `.rst` s názvem zdrojového dokumentu.
 
 Možný zápis kódu:
 
