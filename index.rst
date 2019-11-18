@@ -62,6 +62,14 @@
    :maxdepth: 2
 
    test/index
+   uvod/index
+   uvod_R/index
+   dplyr/index
+   vektorova_data/index
+   rastrova_data/index
+   zobrazeni_dat/index
+   kombinace_analyza/index
+   
 
 =======
 Dodatky
